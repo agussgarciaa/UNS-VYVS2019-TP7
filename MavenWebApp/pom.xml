@@ -47,18 +47,6 @@
 	        <groupId>org.apache.maven.plugins</groupId>
 	        <artifactId>maven-pmd-plugin</artifactId>
 	        <version>3.8</version>
-	        <configuration>
-	        	<rulesets>
-	            	<!--  <ruleset>/category/java/bestpractices.xml</ruleset>-->
-	            </rulesets>
-	         </configuration>
-	          <executions>
-	          <execution>
-	            <goals>
-	              <goal>check</goal>
-	            </goals>
-	          </execution>
-	        </executions>
 	      </plugin>
     	</plugins>
     </build>
