@@ -1,23 +1,11 @@
-<?xml version="1.0"?>
+<?xml version="1.0"? encoding="UTF-8"?>
 
-<ruleset name="VyVSrules"
-    xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
+<pmd 
+	xmlns="http://pmd.sourceforge.net/report/2.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 
-    https://pmd.sourceforge.io/ruleset_2_0_0.xsd">
-
-    <description>
-        Conjunto de Reglas para satisfacer los requerimientos provistos en el Trabajo Practico 2
-        de la materia Verificacion y Validacion de Software (UNS) 2019.
-        Realizado por Agustin Garcia.
-    </description>
-
-    <!-- Si exsiten metodos con complejidad ciclomatica mayor a 6  -->
-    <rule ref="category/java/design.xml/CyclomaticComplexity">
-    <properties>
-        <property name="methodReportLevel" value="6" />
-    </properties>
-    </rule>
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 
+    						https://pmd.sourceforge.net/report_2_0_0_0.xsd"
+	version="6.13.0">
 
     <!-- Si existen variables locales que no se están utilizando -->
     <rule ref="category/java/bestpractices.xml/UnusedLocalVariable" />
@@ -39,4 +27,4 @@
      
     <rule ref="category/java/errorprone.xml/EmptyTryBlock" />
 
-</ruleset>
+</pmd>
