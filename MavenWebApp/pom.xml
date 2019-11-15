@@ -50,7 +50,7 @@
 	        <configuration>
 	        	<rulesets>
 	                <!-- Custom local file system rule set -->
-	            	<ruleset>/MavenWebApp/src/main/resources/net/javaguides/mavenwebapp/ruleset.xml</ruleset>
+	            	<ruleset>/src/main/resources/net/javaguides/mavenwebapp/ruleset.xml</ruleset>
 	            </rulesets>
 	         </configuration>
 	          <executions>
