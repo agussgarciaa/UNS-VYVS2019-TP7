@@ -46,11 +46,12 @@
 	      <plugin>
 	        <groupId>org.apache.maven.plugins</groupId>
 	        <artifactId>maven-pmd-plugin</artifactId>
-	        <version>3.8</version>
+	        <version>3.12</version>
 	        <configuration>
 	        	<rulesets>
 	                <!-- Custom local file system rule set -->
-	            	<ruleset>/src/main/resources/net/javaguides/mavenwebapp/ruleset.xml</ruleset>
+	            	<ruleset>/category/java/bestpractices.xml</ruleset>
+	            	<ruleset>/category/java/codestyle.xml</ruleset>
 	            </rulesets>
 	         </configuration>
 	          <executions>
