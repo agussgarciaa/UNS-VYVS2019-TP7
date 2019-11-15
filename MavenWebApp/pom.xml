@@ -49,8 +49,7 @@
 	        <version>3.8</version>
 	        <configuration>
 	        	<rulesets>
-	            	<ruleset>/category/java/bestpractices.xml</ruleset>
-	            	<ruleset>/category/java/codestyle.xml</ruleset>
+	            	<!--  <ruleset>/category/java/bestpractices.xml</ruleset>-->
 	            </rulesets>
 	         </configuration>
 	          <executions>
