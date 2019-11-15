@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 
 <pmd 
 	xmlns="http://pmd.sourceforge.net/report/2.0.0"
@@ -6,20 +6,17 @@
     xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 
     						https://pmd.sourceforge.net/report_2_0_0_0.xsd"
 	version="6.13.0">
-
-    <!-- Si existen variables locales que no se están utilizando -->
-    <rule ref="category/java/bestpractices.xml/UnusedLocalVariable" />
-
-    <!-- Si se está utilizando el System.out.println. -->
+    
+    
     <rule ref="category/java/bestpractices.xml/SystemPrintln" />
-
-    <!-- Si se está llamando al método toString() sobre objetos que ya son Strings -->
+    
     <rule ref="category/java/performance.xml/StringToString" />
-
-    <!-- Si se está reutilizando sólo una declaracion por línea  -->
+    
     <rule ref="category/java/bestpractices.xml/OneDeclarationPerLine" />
     
     <rule ref="category/java/codestyle.xml/DuplicateImports" />
+    
+    <rule ref="category/java/bestpractices.xml/UnusedLocalVariable" />
     
     <rule ref="category/java/codestyle.xml/DuplicateImports" />
     
