@@ -3,7 +3,8 @@
 <ruleset name="VyVSrules"
     xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 https://pmd.sourceforge.io/ruleset_2_0_0.xsd">
+    xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 
+    https://pmd.sourceforge.io/ruleset_2_0_0.xsd">
 
     <description>
         Conjunto de Reglas para satisfacer los requerimientos provistos en el Trabajo Practico 2
@@ -24,10 +25,18 @@
     <!-- Si se está utilizando el System.out.println. -->
     <rule ref="category/java/bestpractices.xml/SystemPrintln" />
 
-    <!-- Si se está llamando al método toString() sobre objeyos que ya son Strings -->
+    <!-- Si se está llamando al método toString() sobre objetos que ya son Strings -->
     <rule ref="category/java/performance.xml/StringToString" />
 
     <!-- Si se está reutilizando sólo una declaracion por línea  -->
     <rule ref="category/java/bestpractices.xml/OneDeclarationPerLine" />
+    
+    <rule ref="category/java/codestyle.xml/DuplicateImports" />
+    
+    <rule ref="category/java/codestyle.xml/DuplicateImports" />
+    
+    <rule ref="category/java/errorprone.xml/EmptyCatchBlock" />
+     
+    <rule ref="category/java/errorprone.xml/EmptyTryBlock" />
 
 </ruleset>
